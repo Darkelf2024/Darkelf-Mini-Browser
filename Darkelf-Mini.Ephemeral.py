@@ -1,3 +1,53 @@
+# Darkelf-Mini v3.0 — Ephemeral, Privacy-Focused Web Browser
+# Copyright (C) 2025 Dr. Kevin Moore
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option) any
+# later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License along
+# with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+# PROJECT SCOPE (EPHEMERAL BUILD)
+# Darkelf-Mini is designed to avoid writing user data to disk. In this build,
+# settings, cookies, cache, history, and other WebEngine storage are kept in
+# memory only and discarded on exit. Download requests are blocked by default.
+# This minimizes local persistence; for defense-in-depth, use OS full-disk or
+# swap encryption as appropriate for your environment.
+#
+# EXPORT / CRYPTOGRAPHY NOTICE
+# This source distribution does not itself implement proprietary cryptographic
+# algorithms. Any network encryption (e.g., TLS) is provided by third-party
+# components (such as QtWebEngine and the operating system) under their
+# respective licenses. If you build or distribute binaries that bundle such
+# components, or if you add cryptographic code, you are responsible for
+# complying with applicable export control laws (including the U.S. EAR) and
+# any relevant license exceptions (e.g., TSU under 15 CFR §740.13(e)), as well
+# as local regulations in jurisdictions of distribution and use.
+#
+# COMPLIANCE & RESTRICTIONS
+# This software may not be exported, re-exported, or transferred, directly or
+# indirectly, in violation of U.S. or other applicable sanctions and export
+# control laws. Do not use this software in connection with the development,
+# production, or deployment of weapons of mass destruction as defined by the
+# EAR. By downloading, using, or distributing this software, you agree to comply
+# with all applicable laws and regulations.
+#
+# NOTE
+# This code is provided as source only. No compiled binaries are included in
+# this distribution. Redistribution, modification, and use must comply with the
+# LGPL-3.0-or-later and applicable export/usage restrictions.
+#
+# Authored by Dr. Kevin Moore, 2025.
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
