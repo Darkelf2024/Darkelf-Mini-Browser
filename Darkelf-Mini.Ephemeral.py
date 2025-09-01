@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Darkelf Engine copy 7 — PySide6
+Darkelf Mini — PySide6
 • Robust UA-CH stripping (no sec-ch-ua* leaks) via QWebEngineUrlRequestInterceptor
 • SuperHardenedPage with your full shield pack (runs at DocumentCreation)
 • Consolidated QTWEBENGINE_CHROMIUM_FLAGS (no duplicates)
