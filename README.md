@@ -54,10 +54,10 @@ brew install tor
 
 ```sh
 # Start with Tor (default)
-python darkelf.py
+python3.11 darkelf.py
 
 # Or specify a custom proxy
-DARKELF_PROXY="socks5://127.0.0.1:9052" python darkelf.py
+python3.11 darkelf.py
 ```
 
 ---
