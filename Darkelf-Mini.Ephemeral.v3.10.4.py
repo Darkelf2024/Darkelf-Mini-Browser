@@ -104,8 +104,8 @@ from stem import Signal as StemSignal
 from stem import process as stem_process
 import builtins
 
-#devnull = open(os.devnull, 'w')
-#os.dup2(devnull.fileno(), sys.stderr.fileno())
+devnull = open(os.devnull, 'w')
+os.dup2(devnull.fileno(), sys.stderr.fileno())
 
 class EphemeralSettings:
     """Drop-in for QSettings that never touches disk."""
