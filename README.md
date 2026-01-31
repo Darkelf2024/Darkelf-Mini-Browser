@@ -3,7 +3,7 @@
 **Stealth. Private. Hardened. Ephemeral.**  
 A next-generation privacy mini browser based on PySide6 and QtWebEngine, featuring Tor integration, advanced anti-fingerprinting, and stealth network-level adblock.
 
-![Darkelf Mini Browser](https://github.com/Darkelf2024/Darkelf-Mini-Browser/blob/main/Darkelf-Mini-Images/DE%20Mini%20Home.png)
+![Darkelf Mini Browser](https://github.com/Darkelf2024/Darkelf-Mini-Browser/blob/main/Darkelf-Mini-Images/Darkelf-Mini-Home.png)
 
 ---
 
